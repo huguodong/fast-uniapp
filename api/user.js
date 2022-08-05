@@ -11,5 +11,15 @@ const api = {
 export const login = (params, config = {}) => http.post(api.login, params, config)
 
 // 获取用户信息
-export const getUserInfo = (params) => http.get(api.getUserInfo,params)
+export const getUserInfo = (params) => http.get(api.getUserInfo, params)
 
+
+
+//自定义hearder等信息
+// let options = {
+// 	header: {
+// 		'content-type': 'application/x-www-form-urlencoded'
+// 	}
+// }
+// 用户登录
+// export const test = (params, config = {}) => http.post(api.login, params, options)
