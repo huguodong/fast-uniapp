@@ -23,7 +23,6 @@ let $http = new request({
 	//设置请求头（如果使用报错跨域问题，可能是content-type请求类型和后台那边设置的不一致）
 	header: {
 		'content-type': 'application/json;charset=UTF-8',
-		'Content-Type': 'application/x-www-form-urlencoded'
 	},
 	// 请求超时时间（默认6000）
 	timeout: TIMEOUT,
